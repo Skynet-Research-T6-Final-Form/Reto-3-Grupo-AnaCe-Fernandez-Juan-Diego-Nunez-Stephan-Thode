@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preguntas Frecuentes</title>
+  <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body class="body">
+  <main>
+    <section class="section">
+      <img src="https://media.tenor.com/bUWjl1v2lnAAAAAd/yami-marik.gif"
+        alt="Pregunta Frecuentes" width="1920" height="1080" class="img img--hero" />
+      <div class="container w-100% d-flex f-direction-column g-md">
+        <h1 class="title">¿Listo para un juego de las sombras?</h1>
+        <div class="g-layout g-layout--auto-fit-columns j-items-center g-md" id="categories"></div>
+      </div>
+    </section>
+  </div>
+  <div class="container--audio">
+  <audio class="audio" controls id="mireproductor" src="./audio/Yu-Gi-Oh! Opening Español.mp3" autoplay="autoplay" src="./audio/Yu Gi Oh! 5D'S Opening 1 Japonés.mp3"></audio>
+  
+  <div class="audio--buttons">
+      <button onclick="document.getElementById('mireproductor').play()">Play</button>
+      <button onclick="document.getElementById('mireproductor').pause()">Pause</button>
+      <button onclick="document.getElementById('mireproductor').load()">Stop</button>
+      <button onclick="document.getElementById('mireproductor').volume += .1">+ Vol</button>
+      <button onclick="document.getElementById('mireproductor').volume -= .1">- Vol</button>
+  </div>
+</div>
+  </main>
+  <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
